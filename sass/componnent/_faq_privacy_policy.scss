@@ -1,0 +1,42 @@
+.privacy_plicy {
+    padding: 128px 0;
+
+    .privacy_head {
+        text-align: center;
+
+        p {
+            max-width: 562px;
+            padding-top: 16px;
+            padding-bottom: 24px;
+        }
+    }
+
+    .privacy_tittle {
+        h3 {
+            padding-top: 40px;
+            padding-bottom: 32px;
+        }
+
+        p {
+            opacity: 0.7;
+
+            span {
+                color: #2405F2;
+            }
+        }
+
+        ul {
+            list-style: disc;
+            padding-top: 24px;
+            padding-bottom: 4px;
+
+            li {
+                margin-bottom: 12px;
+
+                p {
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}

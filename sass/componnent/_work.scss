@@ -1,0 +1,133 @@
+.work_hero {
+    padding: 96px 0;
+    background-color: #F4F6FC;
+
+    .work_hero_text {
+        margin-top: 50px;
+
+        h2 {
+            padding-top: 4px;
+            padding-bottom: 24px;
+
+        }
+
+        .work_hero_icon {
+            margin-top: 32px;
+            text-align: center;
+
+            ul {
+                li {
+                    a {
+                        margin-right: 28px;
+                        color: rgb(1, 1, 17);
+
+                    }
+
+                    :last-child {
+                        margin-right: 0px;
+                    }
+
+                    a:hover {
+                        color: #FCD980;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+.our_work {
+    padding: 96px 0;
+
+    .work_mixit_btn {
+        padding-bottom: 48px;
+
+        ul {
+            li {
+                display: inline-block;
+
+                a {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #282938;
+                    opacity: 0.7;
+                }
+
+                .mixitup-control-active {
+                    color: #4024F4;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .work_card {
+        margin-bottom: 64px;
+
+        .work_img {
+            padding: 33px 39px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            padding-top: 24px;
+            padding-bottom: 12px;
+        }
+
+        .work_card_btn {
+            padding-top: 24px;
+
+            a {
+                color: #282938;
+
+                span {
+                    margin-left: 16px;
+                }
+            }
+
+            a:hover {
+                color: #FCD980;
+
+                path {
+                    fill: #FCD980;
+                }
+            }
+        }
+    }
+}
+
+.cta_section {
+    padding-top: 32px;
+    padding-bottom: 128px;
+
+    .cta_text {
+        text-align: center;
+
+        p {
+            padding-top: 20px;
+        }
+
+        .cta_btn {
+            padding-top: 40px;
+
+            a {
+                padding: 16px 48px;
+                border: 1px solid #1B1C2B;
+                border-radius: 41px;
+                color: #1B1C2B;
+            }
+
+            a:hover {
+                background-color: #FCD980;
+                color: #1B1C2B;
+            }
+
+        }
+    }
+}

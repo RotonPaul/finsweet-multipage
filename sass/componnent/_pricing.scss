@@ -1,0 +1,150 @@
+.pricing_plan {
+    padding: 128px 0;
+
+    .pricing_box {
+        margin-top: 64px;
+
+
+        .pricing_item {
+            background-color: #F4F6FC;
+            padding: 64px 76px 62px 48px;
+            border-radius: 12px;
+            position: relative;
+            z-index: 1;
+
+
+            .prices {
+                display: flex;
+                align-items: center;
+
+                p {
+                    margin-left: 8px;
+                    color: #2405F2;
+                }
+            }
+
+            h6 {
+                padding-top: 20px;
+                padding-bottom: 8px;
+            }
+
+            p {
+                font-weight: 500;
+            }
+
+            .price_list {
+                margin-top: 78px;
+
+                ul {
+                    .martop {
+                        padding-top: 30px;
+                    }
+
+                    .marbottom {
+                        padding-bottom: 40px;
+                    }
+
+                    li {
+                        padding-bottom: 20px;
+
+                        a {
+                            display: flex;
+                            align-items: center;
+
+                            p {
+                                margin-left: 12px;
+                                color: #282938;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price_btn {
+                text-align: center;
+                margin-top: 59px;
+
+                a {
+                    background-color: #282938;
+                    padding: 16px 77.5px;
+                    color: #F4F6FC;
+                    border-radius: 41px;
+                }
+            }
+
+        }
+
+        .pricing_item::after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            height: 80%;
+            width: 100%;
+            clip-path: ellipse(110% 53% at 50% 47%);
+            z-index: -2;
+            border-radius: 12px;
+            opacity: 0;
+        }
+
+        .pricing_item:hover.pricing_item::after {
+            opacity: 1;
+            background: linear-gradient(0deg, rgba(67, 70, 130, 1) 100%, rgba(57, 58, 101, 1) 100%);
+            transition: all linear 0.5s;
+        }
+
+        .pricing_item:hover {
+            background-color: #1c1e53;
+            transition: all linear 0.5s;
+
+            .prices {
+                h3 {
+                    color: #ffffff;
+                }
+
+                p {
+                    color: #FCD980;
+                }
+            }
+
+            h6,
+            p {
+                color: #ffffff;
+            }
+
+            .price_list {
+                ul {
+                    li {
+                        a {
+
+                            p {
+                                color: #ffffff;
+                            }
+                        }
+
+                        a:hover {
+                            p {
+                                color: #FCD980;
+                                transition: all linear 0.5s;
+                            }
+
+                            svg {
+                                path {
+                                    fill: #FCD980;
+                                    transition: all linear 0.5s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price_btn a {
+                background-color: #FCD980;
+                color: #282938;
+            }
+        }
+
+    }
+
+}

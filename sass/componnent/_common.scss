@@ -1,0 +1,161 @@
+html,
+body {
+    scroll-behavior: smooth;
+    // background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+
+p {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #696974;
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.menu_bg {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    .navbar-toggler {
+        border-color: #aaa6a7;
+        border-radius: 0;
+        padding: 8px 16px;
+
+        i {
+            color: #ffffff;
+
+        }
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-nav,
+    .contact_btn {
+        text-align: center;
+        transition: all linear 0.5s;
+    }
+
+    .menu_btn i.xxxx {
+        transition: all linear 0.5s;
+    }
+
+    .menu_btn i.xxxx::before {
+        content: '\f00d';
+    }
+}
+
+.bg {
+    animation: rrrrr 1s;
+    top: 0;
+    background-color: #1c1e53c9 !important;
+}
+
+@keyframes rrrrr {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+
+}
+
+/* back2top start*/
+.back2top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    background-color: #1c1e53d5;
+    border-radius: 0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #222222;
+
+    i {
+        margin-top: 5px;
+        color: #ffffff;
+    }
+}
+
+.back2top:hover {
+    background-color: #696974 !important;
+    color: #ffffff !important;
+    border: 2px solid #000 !important;
+}
+
+/* back2top end */
